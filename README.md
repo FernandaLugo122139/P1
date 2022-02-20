@@ -12,7 +12,7 @@
 
 * El número se refiere al número de partición.
 
-## 2.- ¿Cómo montar y desmontar un usb en el sistema por terminal?
+##  ¿Cómo montar y desmontar un usb en el sistema por terminal?
 Lo primero que se debe hacer es conectar el dispositivo y que la máquina virtual lo reconozca, para verificar esto se utiliza el comando:
 
 ```bash
@@ -23,7 +23,7 @@ Este comando enlista todos los dispositivos de bloque conectados, ya sea que est
 
 ![Imagen 01](/ImagesREADME/1.png)
 
-En la figura podemos ver el disco USB que se conectó el cual recibe el nombre de sdb, esto es por la nomeclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
+En la figura podemos ver el usb que se conectó el cual recibe el nombre de sdb, esto es por la nomeclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
 
 Un concepto importante que conocer es los diferentes tipos de usuario. Para conocer el usuario que está logeado se utiliza el siguiente comando:
 ```bash
@@ -31,7 +31,7 @@ whoami
 
 ```
 
-Al momento de abrir una nueva terminal por default, en este caso el usuario que está logeado es María, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder logearse en el super usuario, se utiliza el comando:
+Al momento de abrir una nueva terminal por default, en este caso el usuario que está logeado es maria, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder logearse en el super usuario, se utiliza el comando:
 ```bash
 sudo -s
 ```
@@ -40,7 +40,10 @@ Al momento de ejecutarlo pide la constraseña y una vez dada, se ingresa a root,
 
 ![Imagen 02](/ImagesREADME/2.png)
 
-En los siguientes puntos no se va a logear en root, se va a utilizar el comando "sudo" para poder ejecutar los comandos.
+En los siguientes puntos no se va a logear en root, se va a utilizar al incio de cada instrucción el siguiente comando, esto es para poder tener los permisos de súper usuario:
+```bash
+sudo
+```
 
 Para poder montar un dispositivo es necesario conocer el tipo de sistema de archivos en el cual está formateado, se utilizará el siguiente comando que nos proporciona la información necesaria para llevar a cabo esta operación y el ID del dispositivo: 
 ```bash
