@@ -13,7 +13,7 @@
 * El número se refiere al número de partición del disco.
 
 ##  ¿Cómo montar y desmontar un usb en el sistema por terminal?
-Lo primero que se debe hacer es conectar el dispositivo y que la máquina virtual lo reconozca, para verificar esto se utiliza el comando:
+El primer paso es conectar el dispositivo en el puerto usb, y que el sistema lo reconozca, para verificar esto se utiliza el comando:
 
 ```bash
 lsblk
