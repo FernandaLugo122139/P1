@@ -2,7 +2,15 @@
 
 ##  1.- Identificar y descibir las diferencias entre hda, sda y vda, además explicar qué significa la letra y el número al final de los identificadores (no requiere captura de pantalla).
 
+* sd: se usa para identificar algún dipositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o discos USB removibles.
 
+* hd: Se utiliza para denominar al disco maestro en el controlador IDE primario
+
+* vda: Son las siglas para el inglés de Acceso al escritorio virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles.
+
+* La letra que aparece luego de sd y hd es la letra utilizada para establecer el orden que llevan los discos. Siendo el primero en ser denominado por la letra 'a', el siguiente por la letra b y así consecutivamente.
+
+* El numero que puede aparecer posteriormente señala la partición del disco.
 
 ## 2.- ¿Cómo montar y desmontar un usb en el sistema por terminal?
 Lo primero que se debe hacer es conectar el dispositivo y que la máquina virtual lo reconozca, para verificar esto se utiliza el comando:
