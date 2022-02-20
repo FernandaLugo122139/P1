@@ -25,18 +25,18 @@ Este comando enlista todos los dispositivos de bloque conectados, ya sea que est
 
 En la figura podemos ver el usb que se conectó, el cual recibe el nombre de sdb, esto es por la nomeclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
 
-Un concepto importante que conocer es los diferentes tipos de usuario. Para conocer el usuario que está logeado se utiliza el siguiente comando:
+Un concepto importante que se debe conocer para entender lo que sigue, es los diferentes tipos de usuario. Para saber el usuario que está logeado se utiliza el siguiente comando:
 ```bash
 whoami
 
 ```
 
-Al momento de abrir una nueva terminal por default, en este caso el usuario que está logeado es maria, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder logearse en el super usuario, se utiliza el comando:
+Al momento de abrir una nueva terminal por default, en este caso el usuario que está logeado es maria, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder logearse en el súper usuario, se utiliza el comando:
 ```bash
 sudo -s
 ```
 
-Al momento de ejecutarlo pide la constraseña y una vez dada, se ingresa a root, donde se tienen todos los permisos. En la siguiente imagen, se puede ver aplicado lo anterior, se cambió el prompt por # y dice que nos encontramos en root.
+Al momento de ejecutarlo pide la constraseña y una vez dada, se ingresa a root (súper usuario), donde se tienen todos los permisos. En la siguiente imagen, se puede ver aplicado lo anterior, el prompt cambia a "#" y dice que nos encontramos en root.
 
 ![Imagen 02](/ImagesREADME/2.png)
 
