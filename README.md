@@ -102,7 +102,7 @@ Nos da el tamaño de la usb en GB, en bytes y en sectores. El modelo de la usb e
 
 Para borrar las particiones de la usb se utiliza el siguiente comando:
 ```bash
-sudo fdick "dispositivo"
+sudo fdisk "dispositivo"
 ```
 
 Una vez que se ingresa se utiliza la letra "d", nos pide el número de partición que queremos borrar y se elimina, y así sucesivamente. Estos cambios son realizados en memoria, para escribirlos se utiliza la letra "w" y así se modifica la tabla de particiones de manera definitiva
