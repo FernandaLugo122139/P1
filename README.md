@@ -40,7 +40,7 @@ Al momento de ejecutarlo pide la constraseña y una vez dada, se ingresa a root 
 
 ![Imagen 02](/ImagesREADME/2.png)
 
-En los siguientes puntos no se va a logear en root, se va a utilizar al incio de cada instrucción el siguiente comando, esto es para poder tener los permisos de súper usuario:
+Está es la razón por la cual en los siguientes puntos al incio de cada instrucción se va a utilizar el siguiente comando, con el fin de tener los permisos de súper usuario:
 ```bash
 sudo
 ```
