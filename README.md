@@ -54,9 +54,9 @@ sudo blkid
 
 En la figura podemos ver la información desplegada por el comando, es necesario buscar nuestro dispositivo, el cual como mencionamos anteriormente está con la etiqueta de sdb, se puede ver que el tipo de sistema de archivos para dicho dispositivo es "vfat".
 
-Lo siguiente, con el objetivo de una mayor organización, es crear un espacio para montar el USB. Para esto, se crearán dos carpetas utilizando el comando:
+Lo siguiente, con el objetivo de una mayor organización, es crear un espacio para montar el usb. Para esto, se crearán dos carpetas utilizando el comando:
 ```bash
-mkdir
+mkdir [ruta]
 ```
 
 ![Imagen 04](/ImagesREADME/4.png)
