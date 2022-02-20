@@ -112,7 +112,6 @@ Para poder visualizar la tabla de particiones de nuestro disco USB, se ejecuta e
 sudo fdisk -l /dev/sdb
 ```
 
-# Imagen 9
 ![Imagen 09](/ImagesREADME/9.png)
 
 Nos da el tamaño de la usb en GB, en bytes y en sectores. El modelo de la usb es DataTraveler 2.0. Los sectores son de 512 bytes. Y nos da la tabla de particiones, la usb tiene 4 particiones, nos indica el inicio y final de cada partición, el tamaño, y el tipo, hay desconocida y de gestor de arranque. 
