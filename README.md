@@ -1,4 +1,4 @@
-# HelloWorld
+# Práctica 1: Manejo de discos
 
 ##  1.- Identificar y describir las diferencias entre hda, sda y vda, además explicar qué significa la letra y el número al final de los identificadores (no requiere captura de pantalla).
 
