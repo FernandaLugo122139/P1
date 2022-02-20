@@ -23,7 +23,7 @@ Este comando enlista todos los dispositivos de bloque conectados, ya sea que est
 
 ![Imagen 01](/ImagesREADME/1.png)
 
-En la figura podemos ver el usb que se conectó el cual recibe el nombre de sdb, esto es por la nomeclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
+En la figura podemos ver el usb que se conectó, el cual recibe el nombre de sdb, esto es por la nomeclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
 
 Un concepto importante que conocer es los diferentes tipos de usuario. Para conocer el usuario que está logeado se utiliza el siguiente comando:
 ```bash
