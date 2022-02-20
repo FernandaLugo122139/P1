@@ -8,7 +8,7 @@
 
 * vda: Son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles.
 
-* La letra que aparece luego de sd y hd es la letra utilizada para establecer el orden que llevan los discos. Siendo el primero en ser denominado por la letra 'a', el siguiente por la letra b y así consecutivamente.
+* La letra es utilizada para establecer el orden que llevan los discos. Siendo el primero en ser denominado por la letra 'a', el siguiente por la letra b y así consecutivamente.
 
 * El número se refiere al número de partición.
 
