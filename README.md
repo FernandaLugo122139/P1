@@ -1,5 +1,9 @@
 # HelloWorld
 
+##  1.- Identificar y descibir las diferencias entre hda, sda y vda, además explicar qué significa la letra y el número al final de los identificadores (no requiere captura de pantalla).
+
+
+
 ## 2.- ¿Cómo montar y desmontar un usb en el sistema por terminal?
 Lo primero que se debe hacer es conectar el dispositivo y que la máquina virtual lo reconozca, para verificar esto se utiliza el comando:
 
@@ -98,7 +102,7 @@ sudo fdisk -l /dev/sdb
 
 Nos da el tamaño de la usb en GB, en bytes y en sectores. El modelo de la usb es DataTraveler 2.0. Los sectores son de 512 bytes. Y nos da la tabla de particiones, el usb tiene 4 particiones, nos indica el inicio y final de cada partición, el tamaño, y el tipo, hay desconocida y de gestor de arranque. 
 
-# 6.- Borrar todas las particiones del "USB" en terminal
+## 6.- Borrar todas las particiones del "USB" en terminal
 
 Para borrar las particiones de la usb se utiliza el siguiente comando:
 ```bash
@@ -112,3 +116,58 @@ Una vez que se ingresa se utiliza la letra "d", nos pide el número de partició
 # Imagen 10
 
 Para verificar que se hayan eliminado, se enlista la tabla de particiones de nuevo, en la figura 10 se puede observar que ya no hay ninguna.
+
+## 7.- Crear en el "usb" tres particiones físicas y una extendida en terminal.
+
+Para poder crear particiones, primero se debe ejecutar el siguiente comando:
+```bash
+sudo fdisk "Dispositivo"
+```
+
+Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que tipo de partición se requiere, si primaria ("p") o extendida ("e"), se asigna el número de partición y el tamaño que queremos para dicha partición. En la figura se muestra cómo se fueron creando 3 físicas y una extendida. Se utiliza la letra "p" para ver como quedó la tabla de particiones y por último para escribir los cambios se utiliza la letra "w".
+
+# Imagen 11
+
+# Imagen 12
+
+## 8.- Crear una partición dentro de la partición extendida del "usb" en terminal
+
+# Imagen 13
+
+Se tuiliza el comando:
+```bash
+sudo fdisk /dev/sdb
+```
+
+Se ingresa la opción de crear una nueva partición con "n" y nos indica que, al estarse usando todas las particiones primarias, esta nueva partición va a ser una lógica la cuál va a formar parte de la extendida, se asigna el tamaño de la partición, ya sea el valor predeterminado o personalizado. Con "p" podemos observar la tabla de particiones y ver que se crea la lógica y es parte de la extendida. Finalmente presionamos "w" para guardar y salir.
+
+## 9.- En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una partición que abarque toda la "usb".
+
+# Imagen 14
+# Imagen 15
+
+Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en el icono “-“ se le da borrar partición, se confirma la acción y así sucesivamente, hasta tener el usb completamente libre como se muestra en la siguiente figura:
+
+# Imagen 16
+
+Una vez hecho esto, se crea una sola partición que abarque toda la usb, para esto, se presiona el icono “+”. Se define el nombre, el tipo de sistema de archivos y el tamaño, como se muestran en las siguientes capturas:
+
+# Imagen 17
+# Imagen 18
+
+Y listo, se ha creado la partición.
+
+# Imagen 19
+
+## 10.- Copiar un archivo .iso de ditribución live de linux a la usb por medio del comando "dd"
+
+Para poder copiar un archivo .iso a la usb es necesario utilizar el siguiente comando:
+```bash
+sudo dd if= “Direccion donde se encuentra el archivo .iso” of=”Direccion donde se encuentra la usb” bs=”Velocidad a la cual se lee y se escribe al mismo tiempo” status=progress
+```
+
+# Imagen 20
+
+Podemos visualizar mediante el ambiente gráfico que se ha copiado correctamente
+
+# Imagen 21
