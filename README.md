@@ -45,7 +45,7 @@ Está es la razón por la cual en los siguientes puntos al incio de cada instruc
 sudo
 ```
 
-Para poder montar un dispositivo es necesario conocer el tipo de sistema de archivos en el cual está formateado, se utilizará el siguiente comando que nos proporciona la información necesaria para llevar a cabo esta operación y el ID del dispositivo: 
+Para poder montar un dispositivo es necesario conocer el tipo de sistema de archivos en el cual está formateado, para esto, se utilizará el siguiente comando, el cual nos proporciona la información necesaria para llevar a cabo esta operación y el ID del dispositivo: 
 ```bash
 sudo blkid
 ```
