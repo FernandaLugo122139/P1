@@ -135,18 +135,18 @@ Una vez que se ingresa a fdisk, se utiliza la letra "d" para indicarle que quere
 
 ![Imagen 10](/ImagesREADME/10.png)
 
-Para verificar que se hayan eliminado, se enlista la tabla de particiones de nuevo, en la figura 10 se puede observar que ya no hay ninguna.
+Para verificar que se hayan eliminado, se enlista la tabla de particiones de nuevo, en la siguiente figura se puede observar que ya no hay ninguna partición.
 
 ![Imagen 11](/ImagesREADME/11.png)
 
 ## ¿Cómo crear en la "usb" tres particiones físicas y una extendida en terminal?
 
-Para poder crear particiones, primero se debe ejecutar el siguiente comando:
+Para poder crear particiones, primero se debe ingresar a fdisk, para eso se ejecuta el siguiente comando:
 ```bash
-sudo fdisk "Dispositivo"
+sudo fdisk [ruta del dispositivo]
 ```
 
-Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que tipo de partición se requiere, si primaria ("p") o extendida ("e"), se asigna el número de partición y el tamaño que queremos para dicha partición. En la figura se muestra cómo se fueron creando 3 físicas y una extendida. Se utiliza la letra "p" para ver como quedó la tabla de particiones y por último para escribir los cambios se utiliza la letra "w".
+Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que tipo de partición que se requiere, si primaria ("p") o extendida ("e"), se asigna el número de partición y el tamaño que queremos para dicha partición, se puede elegir los valores predeterminados o personalizarlo. En la siguiente figura se muestra cómo se fueron creando 3 físicas y una extendida. Se utiliza la letra "p" para ver como quedó la tabla de particiones y por último para escribir los cambios se utiliza la letra "w".
 
 ![Imagen 12](/ImagesREADME/12.png)
 
