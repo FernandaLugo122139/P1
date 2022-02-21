@@ -105,11 +105,11 @@ sudo fdisk -l [ruta del dispositivo]
 ```
 - sudo: otorga permisos de súper usuario
 - fdisk: se refiere a la gestión de las particiones
-- -l nos ayuda a enlistar
+- -l: nos ayuda a enlistar
 
 ![Imagen 08](/ImagesREADME/8.png)
 
-En este caso al querer mostrar la tabla de particiones del disco donde está instalado el sistema operativo, en este caso Linux, nos vamos al disco de la máquina virtual, el cual tiene como etiqueta "sda". Nos muestra información importante como el tamaño del disco, el modelo del disco, el tamaño de los sectores, el tipo de etiqueta del disco, su identificador y por último la tabla de particiones. En la primera partición tiene la bandera de booteable, la segunda es una partición extendida y la tercera partición se encuentra dentro de la partición extendida.
+En este caso al querer mostrar la tabla de particiones del disco donde está instalado el sistema operativo, en este caso Linux, nos vamos al disco de la máquina virtual, el cual tiene como etiqueta "sda". Nos muestra información importante como el tamaño del disco, el modelo del disco, el tamaño de los sectores, su identificador, la tabla de particiones, entre otros. Con respecto a la tabla de particiones podemos observar que en la primera partición tiene la bandera de booteable, la segunda es una partición extendida y la tercera partición se encuentra dentro de la partición extendida.
 
 ## 5.- Conectar una memoria USB ("USB") y mostrar su tabla de particiones en terminal (hacer respaldo antes porque se va a borar toda la informacioón dentro del disco usb en pasos posteriores).
 
