@@ -166,7 +166,7 @@ Una vez dentro, se ingresa la opción de crear una nueva partición con "n" y no
 
 Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en el ícono “-“ se le da borrar partición, se confirma la acción y así sucesivamente, hasta tener la usb completamente libre como se muestra en las siguientes figuras:
 
-![Imagen 15](/ImagesREADME/15.png)
+![Imagen 15](/ImagesREADME/24.png)
 
 ![Imagen 16](/ImagesREADME/16.png)
 
