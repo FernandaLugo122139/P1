@@ -79,7 +79,7 @@ En la siguiente figura se observa el comando aplicado para nuestro ejemplo, dond
 
 Para desmontarlo se utiliza la siguiente instrucción y se obtiene el siguiente resultado:
 ```bash
-umount [ruta del dispositivo]
+sudo umount [ruta del dispositivo]
 ```
 
 ![Imagen 06](/ImagesREADME/6.png)
