@@ -195,7 +195,7 @@ sudo dd if=[ruta archivo .iso] of=[ruta usb] bs=XM status=progress
 
 Podemos visualizar mediante el ambiente gráfico que se ha copiado correctamente.
 
-![Imagen 22](/ImagesREADME/22.png)
+![Imagen 23](/ImagesREADME/23.png)
 
 ## Referencias
 - https://www.makeareadme.com/#authors-and-acknowledgment
