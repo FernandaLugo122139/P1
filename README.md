@@ -2,7 +2,7 @@
 
 ##  Diferencias entre hda, sda y vda, ¿qué significa la letra y el número al final de los identificadores?
 
-Los dos primeros caracteres de los identificadores (hd,sd y vd) se distinguen por darnos información acerca del puerto que utiliza el dispositivo conectado. A continuación se detalla cada uno:
+Los dos primeros caracteres de los identificadores (hd, sd y vd) se distinguen por darnos información acerca del puerto que utiliza el dispositivo conectado. A continuación se detalla cada uno:
 
 * sda: se usa para identificar algún dispositivo SCSI (Small Computer System Interface), "sd" también incluye los dispositivos SATA o unidades USB removibles. SCSI es un estándar para la transferencia de datos.
 
