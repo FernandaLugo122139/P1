@@ -61,17 +61,17 @@ mkdir [ruta]
 
 ![Imagen 04](/ImagesREADME/4.png)
 
-Para poder montarlo se utiliza el comando:
+Teniendo lo anterior en cuenta podemos proseguir a montarlo utiliza el comando:
 ```bash
-sudo mount -t "type" -o rw, umask=0 "origen" "destino"
+sudo mount -t [type] -o rw, umask=0 [ruta origen] [ruta destino]
 ```
-- Sudo: Permisos de super usuario.
-- Mount: Comando para montar el dispositivo.
-- Type: Se refiere al tipo de sistema de archivos.
-- rw: Permisos de lectura y escritura.
-- Umask = 0: Quiere decir que se de permiso de lectura y escritura para todos los usuarios.
-- Origen: El lugar donde se encuentra el dispositivo que se quiere montar.
-- Destino: El lugar donde queremos montarlo.
+- sudo: otorga permisos de súper usuario
+- mount: comando para montar el dispositivo
+- type: se refiere al tipo de sistema de archivos
+- rw: se refiere a permisos de lectura y escritura
+- umask = 0: quiere decir que se otoroguen los permisos anteriores para todos los usuarios
+- origen: la ruta del lugar donde se encuentra el dispositivo que se quiere montar
+- destino: la ruta del lugar donde queremos montarlo
 
 En la siguiente figura se observa el comando aplicado para nuestro ejemplo, donde el sistema de archivos es vfat y el dispositivo sdb, el cual se coloca en la carpeta creada anteriormente. Después se realiza un lsblk y efectivamente en MOUNTPOINT podemos ver que ya se encuentra montado.
 
