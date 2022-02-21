@@ -3,15 +3,14 @@
 ##  Diferencias entre hda, sda y vda, ¿qué significa la letra y el número al final de los identificadores?
 
 Los dos primeros caracteres de los identificadores (hd,sd y vd) se distinguen por darnos información acerca del puerto que utiliza el dispositivo conectado. A continuación se detalla cada uno:
-nterfaz estándar para la transferencia de datos entre periféricos y ordenadores
 
-* sda: Se usa para identificar algún dispositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o discos USB removibles. SCSI es un estándar para la transferencia de datos
+* sda: Se usa para identificar algún dispositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o discos USB removibles. SCSI es un estándar para la transferencia de datos.
 
 * hda: Se utiliza para denominar al disco maestro en el controlador IDE primario.
 
 * vda: Son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles. Se utiliza la ténica denominada paravirtualización, la cual 
 
-* La letra es utilizada para establecer el orden que llevan los dispositivos. Siendo el primero en ser denominado por la letra 'a', el siguiente por la letra 'b' y así consecutivamente.
+* La letra es utilizada para establecer el orden que llevan los dispositivos. Por ejemplo si los dispostivos son sd, al primero se le asiganaría la letra 'a' (sda), el siguiente por la letra 'b' (sdb) y así consecutivamente.
 
 * El número se refiere al número de partición de la unidad.
 
