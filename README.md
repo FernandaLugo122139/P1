@@ -154,7 +154,7 @@ Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que
 
 ## ¿Cómo crear una partición dentro de la partición extendida del "usb" en terminal?
 
-Primero se utiliza el siguiente comando para ingresar a disks:
+Primero se utiliza el siguiente comando para ingresar a fdisk:
 ```bash
 sudo fdisk /dev/sdb
 ```
