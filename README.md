@@ -164,21 +164,21 @@ Una vez dentro, se ingresa la opción de crear una nueva partición con "n" y no
 
 ## ¿Cómo borrar particiones por medio de la interfaz gráfica de la aplicación disks para que sólo exista una partición que abarque toda la "usb"?
 
+Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en el ícono “-“ se le da borrar partición, se confirma la acción y así sucesivamente, hasta tener la usb completamente libre como se muestra en las siguientes figuras:
+
 ![Imagen 15](/ImagesREADME/15.png)
 
 ![Imagen 16](/ImagesREADME/16.png)
 
-Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en el icono “-“ se le da borrar partición, se confirma la acción y así sucesivamente, hasta tener la usb completamente libre como se muestra en la siguiente figura:
-
 ![Imagen 17](/ImagesREADME/17.png)
 
-Una vez hecho esto, se crea una sola partición que abarque toda la usb, para esto, se presiona el icono “+”. Se define el nombre, el tipo de sistema de archivos y el tamaño, como se muestran en las siguientes capturas:
+Una vez hecho esto, se crea una sola partición que abarque toda la usb, para esto, se presiona el ícono “+”. Se define el nombre, el tipo de sistema de archivos y el tamaño, como se muestran en las siguientes figuras:
 
 ![Imagen 18](/ImagesREADME/18.png)
 
 ![Imagen 19](/ImagesREADME/19.png)
 
-Y listo, se ha creado la partición.
+Y listo, se puede observar que se ha creado la única partición.
 
 ![Imagen 20](/ImagesREADME/20.png)
 
