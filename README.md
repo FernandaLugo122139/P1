@@ -4,11 +4,11 @@
 
 Los dos primeros caracteres de los identificadores (hd,sd y vd) se distinguen por darnos información acerca del puerto que utiliza el dispositivo conectado. A continuación se detalla cada uno:
 
-* sda: Se usa para identificar algún dispositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o unidades USB removibles. SCSI es un estándar para la transferencia de datos.
+* sda: se usa para identificar algún dispositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o unidades USB removibles. SCSI es un estándar para la transferencia de datos.
 
-* hda: Se utiliza para denominar al disco maestro en el controlador IDE primario. 
+* hda: se utiliza para discos controlados por IDE.
 
-* vda: Son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles. Se utiliza un tipo de virtualización denominada paravirtualización, la principal diferencia es que el rendimiento es mucho mejor,ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
+* vda: son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles. Se utiliza un tipo de virtualización denominada paravirtualización, la principal diferencia es que el rendimiento es mucho mejor,ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
 
 * La letra es utilizada para establecer el orden que llevan los dispositivos. Por ejemplo si los dispostivos son sd, al primero se le asiganaría la letra 'a' (sda), el siguiente por la letra 'b' (sdb) y así consecutivamente.
 
@@ -204,4 +204,5 @@ Podemos visualizar mediante el ambiente gráfico que se ha copiado correctamente
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/
 - https://frameboxxindore.com/linux/what-is-dev-sda-in-linux.html
+- https://www.dell.com/support/kbdoc/es-mx/000132092/ubuntu-linux-t-eacute-rminos-para-el-disco-duro-y-dispositivos-que-se-explican
 
