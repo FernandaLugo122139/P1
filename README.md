@@ -186,8 +186,10 @@ Y listo, se puede observar que se ha creado la única partición.
 
 Para poder copiar un archivo .iso a la usb es necesario utilizar el siguiente comando:
 ```bash
-sudo dd if= “Direccion donde se encuentra el archivo .iso” of=”Direccion donde se encuentra la usb” bs=”Velocidad a la cual se lee y se escribe al mismo tiempo” status=progress
+sudo dd if=[ruta archivo .iso] of=[ruta usb] bs=XM status=progress
 ```
+-bs: especifica el tamaño del bloque de entrada y salida
+-status=progress: despliega el progreso
 
 ![Imagen 21](/ImagesREADME/21.png)
 
