@@ -4,7 +4,7 @@
 
 Los dos primeros caracteres de los identificadores (hd, sd y vd) se distinguen por darnos información acerca del puerto que utiliza el dispositivo conectado. A continuación se detalla cada uno:
 
-* sda: se usa para identificar dispositivos que usan SCSI (Small Computer System Interface), "sd" también incluye SATA o unidades USB removibles. SCSI es un estándar para la transferencia de datos.
+* sda: se usa para identificar dispositivos que utilizan SCSI (Small Computer System Interface), "sd" también incluye SATA o puertos USB. SCSI es un estándar para la transferencia de datos.
 
 * hda: se utiliza para discos controlados por IDE (Integrated Device Electronics).
 
