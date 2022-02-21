@@ -73,7 +73,7 @@ sudo mount -t [type] -o rw, umask=0 [ruta origen] [ruta destino]
 - origen: la ruta del lugar donde se encuentra el dispositivo que se quiere montar
 - destino: la ruta del lugar donde queremos montarlo
 
-En la siguiente figura se observa el comando aplicado para nuestro ejemplo, donde el sistema de archivos es vfat y el dispositivo sdb, el cual se coloca en la carpeta creada anteriormente. Después se realiza un lsblk y efectivamente en la sección de "MOUNTPOINT" podemos ver que ya se encuentra montado.
+En la siguiente figura se observa el comando aplicado para nuestro ejemplo, donde el sistema de archivos es vfat y el dispositivo sdb, el cual se coloca en la carpeta creada anteriormente. Después se realiza un lsblk y efectivamente en la sección de "MOUNTPOINT" podemos verificar que ya se encuentra montado.
 
 ![Imagen 05](/ImagesREADME/5.png)
 
