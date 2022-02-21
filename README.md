@@ -189,7 +189,7 @@ Para poder copiar un archivo .iso a la usb es necesario utilizar el siguiente co
 sudo dd if=[ruta archivo .iso] of=[ruta usb] bs=XM status=progress
 ```
 - bs: específica el tamaño del bloque de entrada y salida
-- status=progres: despliega el progreso
+- status=progress: despliega el progreso
 
 ![Imagen 21](/ImagesREADME/21.png)
 
