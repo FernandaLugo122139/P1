@@ -154,14 +154,13 @@ Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que
 
 ## ¿Cómo crear una partición dentro de la partición extendida del "usb" en terminal?
 
-Se utiliza el comando:
+Primero se utiliza el siguiente comando para ingresar a disks:
 ```bash
 sudo fdisk /dev/sdb
 ```
+Una vez dentro, se ingresa la opción de crear una nueva partición con "n" y nos indica que, al estarse usando todas las particiones primarias, esta nueva partición va a ser una lógica la cuál va a formar parte de la extendida. Se asigna el tamaño de la partición, ya sea el valor predeterminado o personalizado. Con "p" podemos observar la tabla de particiones y ver que se crea la lógica y es parte de la extendida. Finalmente presionamos "w" para guardar y salir.
 
 ![Imagen 14](/ImagesREADME/14.png)
-
-Se ingresa la opción de crear una nueva partición con "n" y nos indica que, al estarse usando todas las particiones primarias, esta nueva partición va a ser una lógica la cuál va a formar parte de la extendida. Se asigna el tamaño de la partición, ya sea el valor predeterminado o personalizado. Con "p" podemos observar la tabla de particiones y ver que se crea la lógica y es parte de la extendida. Finalmente presionamos "w" para guardar y salir.
 
 ## ¿Cómo borrar particiones por medio de la interfaz gráfica de la aplicación disks para que sólo exista una partición que abarque toda la "usb"?
 
