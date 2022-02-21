@@ -6,7 +6,7 @@ Los dos primeros caracteres de los identificadores (hd,sd y vd) se distinguen po
 
 * sda: se usa para identificar algún dispositivo SCSI (Small Computer System Interface), esto también incluye los dispositivos SATA o unidades USB removibles. SCSI es un estándar para la transferencia de datos.
 
-* hda: se utiliza para discos controlados por IDE.
+* hda: se utiliza para discos controlados por IDE (Integrated Device Electronics).
 
 * vda: son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles. Se utiliza un tipo de virtualización denominada paravirtualización, la principal diferencia es que el rendimiento es mucho mejor,ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
 
