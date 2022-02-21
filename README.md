@@ -135,11 +135,11 @@ Una vez que se ingresa a fdisk, se utiliza la letra "d" para indicarle que quere
 
 ![Imagen 10](/ImagesREADME/10.png)
 
-![Imagen 11](/ImagesREADME/11.png)
-
 Para verificar que se hayan eliminado, se enlista la tabla de particiones de nuevo, en la figura 10 se puede observar que ya no hay ninguna.
 
-## 7.- Crear en la "usb" tres particiones físicas y una extendida en terminal.
+![Imagen 11](/ImagesREADME/11.png)
+
+## ¿Cómo crear en la "usb" tres particiones físicas y una extendida en terminal?
 
 Para poder crear particiones, primero se debe ejecutar el siguiente comando:
 ```bash
