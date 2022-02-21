@@ -101,8 +101,11 @@ Dicho comando da como resultado todos los dispositivos de bloque conectados, pro
 
 Para mostrar la tabla de particiones se utiliza el siguiente comando:
 ```bash
-sudo fdisk -l "dispositivo"
+sudo fdisk -l [ruta del dispositivo]
 ```
+- sudo: otorga permisos de súper usuario
+- fdisk: se refiere a la gestión de las particiones
+- -l nos ayuda a enlistar
 
 ![Imagen 08](/ImagesREADME/8.png)
 
