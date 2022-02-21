@@ -120,7 +120,7 @@ sudo fdisk -l /dev/sdb
 
 ![Imagen 09](/ImagesREADME/9.png)
 
-Nos da el tamaño de la usb en GB, en bytes y en sectores. El modelo de la usb es DataTraveler 2.0. Los sectores son de 512 bytes. Y nos da la tabla de particiones, la usb tiene 4 particiones, nos indica el inicio y final de cada partición, el tamaño, y el tipo de partición.
+Nos da el tamaño de la usb en GB, en bytes y en sectores. El modelo de la usb es DataTraveler 2.0. Los sectores son de 512 bytes. Y nos da la tabla de particiones, en este caso la usb ya contaba con 4 particiones, nos indica el inicio y final de cada partición, el tamaño, y el tipo de partición.
 
 ## ¿Cómo borrar todas las particiones del "USB" en terminal?
 
