@@ -10,7 +10,7 @@ Los dos primeros caracteres de los identificadores (hd, sd y vd) se distinguen p
 
 * vda: se refiere a unidades que utilizan un tipo de virtualización denominada paravirtualización, la principal diferencia con la virtualización es que el rendimiento es mucho mejor, ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
 
-* La letra es utilizada para establecer el orden que llevan los dispositivos. Por ejemplo si los dispostivos son sd, al primero se le asiganaría la letra 'a' (sda), el siguiente por la letra 'b' (sdb) y así consecutivamente.
+* La letra es utilizada para establecer el orden que llevan los dispositivos. Por ejemplo, si los dispositivos son sd, al primero se le asignaría la letra 'a' (sda), el siguiente por la letra 'b' (sdb) y así consecutivamente.
 
 * El número se refiere al número de partición de la unidad.
 
@@ -27,13 +27,13 @@ Este comando enlista todos los dispositivos de bloque conectados, ya sea que est
 
 En la figura podemos ver el usb que se conectó, el cual recibe el nombre de sdb, esto es por la nomenclatura explicada con anterioridad. Se puede observar el campo de "MOUNTPOINT", si en esta sección no aparece ningún parámetro significa que el dispositivo no está montado.
 
-Un concepto importante que se debe conocer para entender lo que sigue, es los diferentes tipos de usuario. Para saber el usuario que está logeado se utiliza el siguiente comando:
+Un concepto importante que se debe conocer para entender lo que sigue, es los diferentes tipos de usuario. Para saber el usuario que está logueado se utiliza el siguiente comando:
 ```bash
 whoami
 
 ```
 
-Al momento de abrir una nueva terminal por default, en este caso el usuario que está logeado es maria, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder logearse en el súper usuario, se utiliza el comando:
+Al momento de abrir una nueva terminal por default, en este caso el usuario que está logueado es maria, dicho usuario no tiene todos los permisos y para poder realizar los siguientes ejercicios es necesario tenerlos, ya que vamos a trabajar directamente con el hardware. Para poder loguearse en el súper usuario, se utiliza el comando:
 ```bash
 sudo -s
 ```
