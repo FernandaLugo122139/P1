@@ -166,11 +166,11 @@ Una vez dentro, se ingresa la opción de crear una nueva partición con "n" y no
 
 Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en el ícono “-“ se le da borrar partición, se confirma la acción y así sucesivamente, hasta tener la usb completamente libre como se muestra en las siguientes figuras:
 
-![Imagen 15](/ImagesREADME/24.png)
+![Imagen 24](/ImagesREADME/24.png)
 
-![Imagen 16](/ImagesREADME/16.png)
+![Imagen 25](/ImagesREADME/25.png)
 
-![Imagen 17](/ImagesREADME/17.png)
+![Imagen 26](/ImagesREADME/26.png)
 
 Una vez hecho esto, se crea una sola partición que abarque toda la usb, para esto, se presiona el ícono “+”. Se define el nombre, el tipo de sistema de archivos y el tamaño, como se muestran en las siguientes figuras:
 
@@ -180,7 +180,7 @@ Una vez hecho esto, se crea una sola partición que abarque toda la usb, para es
 
 Y listo, se puede observar que se ha creado la única partición.
 
-![Imagen 20](/ImagesREADME/20.png)
+![Imagen 27](/ImagesREADME/27.png)
 
 ## ¿Cómo copiar un archivo .iso de ditribución live de linux a la usb por medio del comando "dd"?
 
