@@ -131,7 +131,7 @@ sudo fdisk [ruta del dispositivo]
 - sudo: otorga permisos de súper usuario
 - fdisk: se refiere a la gestión de las particiones
 
-Una vez que se ingresa a fdisk se utiliza la letra "d", nos pide el número de partición que queremos borrar y se elimina, y así sucesivamente. Estos cambios son realizados en memoria, para escribirlos se utiliza la letra "w" y así se modifica la tabla de particiones de manera definitiva.
+Una vez que se ingresa a fdisk, se utiliza la letra "d" para indicarle que queremos eliminar una paritición, nos pide el número de partición que queremos borrar y se elimina, y así sucesivamente. Estos cambios son realizados en memoria, para escribirlos se utiliza la letra "w" y así se modifica la tabla de particiones de manera definitiva.
 
 ![Imagen 10](/ImagesREADME/10.png)
 
