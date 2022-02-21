@@ -152,7 +152,7 @@ Una vez dentro, se utiliza la letra "n" para crear una partición. Se indica que
 
 ![Imagen 13](/ImagesREADME/13.png)
 
-## 8.- Crear una partición dentro de la partición extendida del "usb" en terminal
+## ¿Cómo crear una partición dentro de la partición extendida del "usb" en terminal?
 
 ![Imagen 14](/ImagesREADME/14.png)
 
@@ -163,7 +163,7 @@ sudo fdisk /dev/sdb
 
 Se ingresa la opción de crear una nueva partición con "n" y nos indica que, al estarse usando todas las particiones primarias, esta nueva partición va a ser una lógica la cuál va a formar parte de la extendida. Se asigna el tamaño de la partición, ya sea el valor predeterminado o personalizado. Con "p" podemos observar la tabla de particiones y ver que se crea la lógica y es parte de la extendida. Finalmente presionamos "w" para guardar y salir.
 
-## 9.- En la interfaz gráfica de la aplicación disks, borrar las particiones para que sólo exista una partición que abarque toda la "usb".
+## ¿Cómo borrar particiones por medio de la interfaz gráfica de la aplicación disks para que sólo exista una partición que abarque toda la "usb"?
 
 ![Imagen 15](/ImagesREADME/15.png)
 
@@ -183,7 +183,7 @@ Y listo, se ha creado la partición.
 
 ![Imagen 20](/ImagesREADME/20.png)
 
-## 10.- Copiar un archivo .iso de ditribución live de linux a la usb por medio del comando "dd"
+## ¿Cómo copiar un archivo .iso de ditribución live de linux a la usb por medio del comando "dd"?
 
 Para poder copiar un archivo .iso a la usb es necesario utilizar el siguiente comando:
 ```bash
