@@ -117,7 +117,7 @@ Al querer mostrar la tabla de particiones del disco donde está instalado el sis
 
 Para poder visualizar la tabla de particiones de nuestra usb, la cual está etiquetada como "sdb", se ejecuta el siguiente comando:
 ```bash
-sudo fdisk -l /dev/sdb
+sudo fdisk -l [ruta de la usb]
 ```
 
 ![Imagen 09](/ImagesREADME/9.png)
