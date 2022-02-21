@@ -93,11 +93,11 @@ Para poder enlistar la información de los dispositivos de bloque, ya sea que se
 lsblk
 ```
 
-Dicho comando da como resultado todos los dispositivos de bloque conectados, proporciona información de los dispositivos como nombre y "MOUNTPOINT", la cual es una sección que tiene como parámetro la ruta donde se ha montado el dispostivo. Si no hay ningún parámetro en la sección significa que no está montado.
+Dicho comando da como resultado todos los dispositivos de bloque conectados, proporciona información de los dispositivos como nombre y "MOUNTPOINT", la cual es una sección que tiene como parámetro la ruta donde se ha montado el dispostivo. Si no hay ningún parámetro en la sección significa que el dispositivo no está montado.
 
 ![Imagen 07](/ImagesREADME/7.png)
 
-## 4.- Mostrar la tabla de particiones del disco donde está instalado el sistema operativo en terminal
+## ¿Cómo mostrar la tabla de particiones del disco donde está instalado el sistema operativo en terminal?
 
 Para mostrar la tabla de particiones se utiliza el siguiente comando:
 ```bash
