@@ -196,3 +196,10 @@ sudo dd if=[ruta archivo .iso] of=[ruta usb] bs=XM status=progress
 Podemos visualizar mediante el ambiente gráfico que se ha copiado correctamente.
 
 ![Imagen 22](/ImagesREADME/22.png)
+
+## Referencias
+- https://www.makeareadme.com/#authors-and-acknowledgment
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/
+- https://frameboxxindore.com/linux/what-is-dev-sda-in-linux.html
+
