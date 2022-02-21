@@ -174,9 +174,9 @@ Entramos a la interfaz gráfica llamada disks, se selecciona la partición y en 
 
 Una vez hecho esto, se crea una sola partición que abarque toda la usb, para esto, se presiona el ícono “+”. Se define el nombre, el tipo de sistema de archivos y el tamaño, como se muestran en las siguientes figuras:
 
-![Imagen 18](/ImagesREADME/18.png)
+![Imagen 18](/ImagesREADME/28.png)
 
-![Imagen 19](/ImagesREADME/19.png)
+![Imagen 19](/ImagesREADME/18.png)
 
 Y listo, se puede observar que se ha creado la única partición.
 
