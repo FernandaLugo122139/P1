@@ -8,7 +8,7 @@ Los dos primeros caracteres de los identificadores (hd,sd y vd) se distinguen po
 
 * hda: se utiliza para discos controlados por IDE (Integrated Device Electronics).
 
-* vda: son las siglas en inglés de Acceso al Escritorio Virtual (Virtual Desktop Access), este dispositivo permite que la máquina virtual se registre con el controlador, lo que permite que la máquina virtual y los recursos alojados para la misma estén disponibles. Se utiliza un tipo de virtualización denominada paravirtualización, la principal diferencia es que el rendimiento es mucho mejor,ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
+* vda: se refiere a unidades que utilizan un tipo de virtualización denominada paravirtualización, la principal diferencia con la virtualización es que el rendimiento es mucho mejor, ya que no es necesario que el hipervisor (encargado de crear y ejecutar la máquina virtual) emule una interfaz de hardware. 
 
 * La letra es utilizada para establecer el orden que llevan los dispositivos. Por ejemplo si los dispostivos son sd, al primero se le asiganaría la letra 'a' (sda), el siguiente por la letra 'b' (sdb) y así consecutivamente.
 
