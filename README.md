@@ -84,16 +84,16 @@ sudo umount [ruta del dispositivo]
 
 ![Imagen 06](/ImagesREADME/6.png)
 
-En la figura, se puede ver el uso del comando para desmontar, seguido de lsblk para verificar que se haya desmontado y, en efecto, ya no aparece ningún parámetro en la sección de MOUNTPOINT.
+En la figura, se puede ver el uso del comando para desmontar, seguido de lsblk para verificar que se haya desmontado y, en efecto, ya no aparece ningún parámetro en la sección de "MOUNTPOINT".
 
-## 3.- Enlistar la información de los dispositivos de bloque conectados, aunque no estén montados en terminal
+## ¿Cómo enlistar la información de los dispositivos de bloque conectados, aunque no estén montados en terminal?
 
-Para poder enlistar la información de los dispositivos de bloque conectados se utiliza el siguiente comando:
+Para poder enlistar la información de los dispositivos de bloque, ya sea que se encuentren montados o no se utiliza el siguiente comando:
 ```bash
 lsblk
 ```
 
-Dicho comando da como resultado todos los dispositivos de bloque conectados a la computadora, da su nombre, el tamaño y el MOUNTPOINT, el cual es el lugar donde se ha montado dicho dispositivo. Si no hay ningún parámetro en la sección significa que no está montado.
+Dicho comando da como resultado todos los dispositivos de bloque conectados, proporciona información de los dispositivos como nombre y "MOUNTPOINT", la cual es una sección que tiene como parámetro la ruta donde se ha montado el dispostivo. Si no hay ningún parámetro en la sección significa que no está montado.
 
 ![Imagen 07](/ImagesREADME/7.png)
 
